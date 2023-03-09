@@ -1,0 +1,26 @@
+{
+  "name": "equipes_js",
+  "version": "1.0.0",
+  "description": "Simple Node js App with mongodb !! ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "js",
+    "node.js",
+    "moongose",
+    "api",
+    "mongodb"
+  ],
+  "author": "Abdellah Aarab",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  }
+}
