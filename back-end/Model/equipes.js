@@ -6,4 +6,3 @@ const EquipesModel = mongoose.Schema({
 })
 
 module.exports = Equipes  = mongoose.model('equipe',EquipesModel)
-

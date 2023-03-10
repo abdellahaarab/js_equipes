@@ -16,17 +16,18 @@ mongoose.connect(URL,
     }
 ); 
 
-app.get('/equipes', GetAllEquipes);
+app.get('/api/v1/equipes', GetAllEquipes);
 
-app.get('/equipes/:id', RechercheEquipes);
+app.get('/api/v1/equipes/:id', RechercheEquipes);
 
-app.post('/equipes', AddNewEquipes)
+app.post('/api/v1/equipes', AddNewEquipes)
 
-app.put('/equipes/:id', EditEquipes)
+app.put('/api/v1/equipes/:id', EditEquipes)
 
-app.delete('/equipes/:id', DeleteEquipes)
+app.delete('/api/v1/equipes/:id', DeleteEquipes)
 
 
 app.listen('9000','0.0.0.0',()=>{
     console.log('Server Starting in http://127.0.0.1:9000/')
+    console.log('API URL http://127.0.0.1:9000/api/v1/equipes')
 });

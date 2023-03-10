@@ -36,5 +36,5 @@ const DeleteEquipes = (req,res,next)=>{
         .then(result=> res.status(200).json({'message':"Deleted success !!"}))
         .catch(err => res.status(400).json({'message':"Not deleted !!"}))
 }
-
+ 
 module.exports = {GetAllEquipes, RechercheEquipes, AddNewEquipes, EditEquipes,DeleteEquipes};
