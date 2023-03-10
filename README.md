@@ -35,6 +35,7 @@ Microservices application with Node.JS and React.JS 👩‍🚀.
     `npm i nodemon`
     `npm i axios`
     `npm i cors`
+    `npm i react-bootstrap bootstrap`
     `npm start`
 
 

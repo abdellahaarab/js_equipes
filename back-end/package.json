@@ -18,7 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "cros": "^1.0.1",
     "express": "^4.18.2",
     "mongoose": "^7.0.1",
     "nodemon": "^2.0.21"

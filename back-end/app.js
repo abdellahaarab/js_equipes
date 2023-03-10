@@ -1,8 +1,21 @@
 const express = require("express")
 const app = express()
 const equipes = require('./equipes')
+const cors = require('cors')
+const mongoose = require("mongoose")
 
-app.use(express.json())
+
+app.use(cors());
+mongoose.set('strictQuery',true);
+
+mongoose.connect("mongodb://127.0.0.1:27017/js_equipes",
+    {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    }
+);
+
+app.use(express.json());
 
 app.get('/equipes', (req,res,next)=>{
     try{
