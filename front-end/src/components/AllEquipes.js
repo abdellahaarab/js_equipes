@@ -26,7 +26,7 @@ function AllEquipes() {
     <div>
         <div className='alert alert-green'>{message}</div>
         <div className="my-2">
-          <a href="/find">find -> </a>
+          <a href="/find">find - </a>
         </div>
         <h1>List des Equipes</h1>
         <div>
