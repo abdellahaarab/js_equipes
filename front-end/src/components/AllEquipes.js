@@ -24,22 +24,22 @@ function AllEquipes() {
   }
   return (
     <div>
-        <div className='alert alert-green'>{message}</div>
+        <div className='alert alert-info'>{message}</div>
         <div className="my-2">
-        <a href="/add" className="m-1">Add item </a> <a href="/find" className="m-1">Find item ?</a>
+        <a href="/add" className="m-1 btn btn-primary">Add item </a> <a href="/find" className="m-1 btn btn-info">Find item ?</a>
         </div>
-        <h1>List des Equipes</h1>
+        <h1 className='m-5'>List des Equipes</h1>
         <div>
-            <table border="2">
+            <table className="table">
               <thead>
-                <tr>
+                <tr className="table-light table-active">
                   <th>Nome</th>
                   <th>Contry</th>
                   <th>Action</th>
                 </tr>
               </thead>
               <tbody>
-{lesDonne.map((elemnt,index)=><tr key={index}><td>{elemnt.name}</td><td>{elemnt.contry}</td><td><button onClick={fdelete} value={elemnt._id} className="btn btn-info">Delete</button> <Link className="btn btn-info" to="/update/" state={elemnt._id}>Update</Link></td></tr>)}
+{lesDonne.map((elemnt,index)=><tr key={index} className="table-light"><td>{elemnt.name}</td><td>{elemnt.contry}</td><td><button onClick={fdelete} value={elemnt._id} className="btn btn-info">Delete</button> <Link className="btn btn-info" to="/update/" state={elemnt._id}>Update</Link></td></tr>)}
               </tbody>
             </table>
         </div>
