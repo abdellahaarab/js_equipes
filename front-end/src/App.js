@@ -4,6 +4,7 @@ import AddEquipes from './components/AddEquipes';
 import AllEquipes from './components/AllEquipes';
 import FindEquipes from './components/FindEquipes';
 import UpdateEquipes from './components/UpdateEquipes';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
