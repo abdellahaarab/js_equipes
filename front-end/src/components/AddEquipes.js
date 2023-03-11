@@ -21,9 +21,11 @@ function AddEquipes() {
   }
   return (
     <div>
+        <div className='my-2 mx-auto'><a href="/"> Go Back </a></div>
+       
         <div className='alert alert-success'>{message}</div>
 
-        <div class="form">
+        <div className="form">
             <input type="text" value={name} onChange={e=>setName(e.target.value)} className="form-control" placeholder='Nome'/> <br/>
             <input type="text" value={contry} onChange={e=>setContry(e.target.value)} className="form-control" placeholder='Contry'/><br/>
             <input type="button" value="Add New Groupe" onClick={fadd} className="btn btn-primary"/>

@@ -2,8 +2,8 @@ import axios from 'axios'
 import React, { useState } from 'react'
 
 function FindEquipes() {
-    const [equipe,setEquipe] = useState([])
-    const [id,setId] = useState("640ba5cae86ce808d0ad23ac")
+    const [equipe,setEquipe] = useState([{name:"",contry:""}])
+    const [id,setId] = useState("")
   const find = (e)=>{
     e.preventDefault()
     setId(e.target.value)
@@ -13,10 +13,12 @@ function FindEquipes() {
   }
   return (
     <div>
+        <div className='my-2 mx-auto'><a href="/"> Go Back </a></div>
+
         <input type="text" value={id} onChange={find} placeholder="insert something" className="form-control"/><br/>
+        <button onClick={find} className="btn btn-info">Search</button>
         <div>
             <span>{equipe.name}</span> - <span>{equipe.contry}</span>
-            
         </div>
     </div>
   )

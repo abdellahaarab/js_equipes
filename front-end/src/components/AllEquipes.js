@@ -26,7 +26,7 @@ function AllEquipes() {
     <div>
         <div className='alert alert-green'>{message}</div>
         <div className="my-2">
-          <a href="/find">find - </a>
+        <a href="/add" className="m-1">Add item </a> <a href="/find" className="m-1">Find item ?</a>
         </div>
         <h1>List des Equipes</h1>
         <div>
@@ -35,7 +35,7 @@ function AllEquipes() {
                 <tr>
                   <th>Nome</th>
                   <th>Contry</th>
-                  <th colspan="2">Action</th>
+                  <th>Action</th>
                 </tr>
               </thead>
               <tbody>
