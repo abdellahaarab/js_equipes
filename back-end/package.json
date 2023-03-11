@@ -2,6 +2,10 @@
   "name": "equipes_js",
   "version": "1.0.0",
   "description": "Simple Node js App with mongodb !! ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdellahaarab/js_equipes.git"
+  },
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +20,10 @@
   ],
   "author": "Abdellah Aarab",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdellahaarab/js_equipes/issues"
+  },
+  "homepage": "https://github.com/abdellahaarab/js_equipes#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",

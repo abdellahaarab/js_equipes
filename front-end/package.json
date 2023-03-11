@@ -2,6 +2,15 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
+  "description": "Microservices React & Node Js application 👩‍🚀",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdellahaarab/js_equipes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdellahaarab/js_equipes/issues"
+  },
+  "homepage": "https://github.com/abdellahaarab/js_equipes#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
