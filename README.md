@@ -41,5 +41,5 @@ Microservices application with Node.JS and React.JS 👩‍🚀.
 
 ## Requirements tools 💪
 
-- Postman
-- VS Code
+- [Postman](https://www.postman.com/downloads/)
+- [VS Code](https://code.visualstudio.com/download)
